@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  bitcoin_watcher:
+    build: 
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    command: /app/bin/bitcoin-watcher --data-dir=/data
+    hostname: bitcoin_watcher
+    environment:
+      ENV: production
+      NODE_ENV: production
+      DATA_DIR: /data
+      BITCOIN_RPC_PROTOCOL: http
+      BITCOIN_RPC_HOST: 127.0.0.1
+      # main: 8333, test: 18333, regtest: 18443
+      BITCOIN_RPC_PORT: 18443
+      BITCOIN_RPC_PATHNAME: /
+      BITCOIN_RPC_USER: rpcuser
+      BITCOIN_RPC_PASSWORD: rpcpassword
+      MONGODB_URI: mongodb://127.0.0.1:27017/BTC
+      MONGODB_DEBUG: true
+      MONGODB_WIPE: true
+      MONGODB_BLOCK_START: 0
+    volumes:
+      - "../data:/data"

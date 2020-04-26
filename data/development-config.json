@@ -1,0 +1,58 @@
+{
+  "env": "development",
+  "data": {
+    "dir": "./data"
+  },
+  "symbol": {
+    "name": "BTC",
+    "decimals": 8
+  },
+  "mongodb": {
+    "db": {
+      "name": "BTC"
+    }
+  },
+  "rpc": {
+    "protocol": "http",
+    "user": "rpc_user_btc_watcher",
+    "pass": "FdSWJrBDasD38nI6xWNCz2pMDUlPaKksS6-VwsVfvWg",
+    "host": "127.0.0.1",
+    "port": 18443,
+    "pathname": "/"
+  },
+  "config": {
+    "file": {
+      "name": "development-config.json",
+      "save": false,
+      "print": false
+    }
+  },
+  "logger": {
+    "level": "debug",
+    "appenders": {
+      "stdout": true,
+      "stderr": false,
+      "gelf": false,
+      "file": false
+    },
+    "file": {
+      "dir": "./logs",
+      "name": "development-debug.log",
+      "pattern": ".yyyy-MM-dd-hh",
+      "keep_file_ext": true,
+      "encoding": "utf-8",
+      "mode": 511,
+      "flags": "a",
+      "compress": false,
+      "always_include_pattern": false,
+      "days_to_keep": 1
+    },
+    "gelf": {
+      "host": "localhost",
+      "port": 12201,
+      "hostname": "btc-watcher",
+      "facility": "btc-watcher",
+      "customFields": {}
+    }
+  }
+}

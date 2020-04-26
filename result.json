@@ -1,0 +1,257 @@
+[
+  {
+    "result": {
+      "amount": 0,
+      "confirmations": 1,
+      "generated": true,
+      "blockhash": "73a82a234cdf97bb5ecdf300ccf670701307ddea47d6fb42a0a703526ef5bea4",
+      "blockindex": 0,
+      "blocktime": 1585992989,
+      "txid": "35f58448f542eb1036896273dfd59f5ab90db3a07ac347c2951333db7befef90",
+      "walletconflicts": [],
+      "time": 1585992989,
+      "timereceived": 1585992989,
+      "bip125-replaceable": "no",
+      "details": [
+        {
+          "address": "msqdGkBy9RG8W5dJrUCDfVTTT5crE2XkB2",
+          "category": "immature",
+          "amount": 25.0001076,
+          "label": "address_1",
+          "vout": 0
+        }
+      ],
+      "hex": "020000000001010000000000000000000000000000000000000000000000000000000000000000ffffffff0502b8000101ffffffff0208230395000000001976a9148729888fd4da44fdc1e313f7059c76bc3de176dc88ac0000000000000000266a24aa21a9ed5d92de4b1b4491178146d4b4b65d88b1d697495392e2c98f194f495a98a08be20120000000000000000000000000000000000000000000000000000000000000000000000000",
+      "decoded": {
+        "txid": "35f58448f542eb1036896273dfd59f5ab90db3a07ac347c2951333db7befef90",
+        "hash": "25f7b2ccb3dea585f961e3f8800eeb9df2e0c1a7c8193af3b80c97b41bd04270",
+        "version": 2,
+        "size": 173,
+        "vsize": 146,
+        "weight": 584,
+        "locktime": 0,
+        "vin": [
+          {
+            "coinbase": "02b8000101",
+            "sequence": 4294967295
+          }
+        ],
+        "vout": [
+          {
+            "value": 25.0001076,
+            "n": 0,
+            "scriptPubKey": {
+              "asm": "OP_DUP OP_HASH160 8729888fd4da44fdc1e313f7059c76bc3de176dc OP_EQUALVERIFY OP_CHECKSIG",
+              "hex": "76a9148729888fd4da44fdc1e313f7059c76bc3de176dc88ac",
+              "reqSigs": 1,
+              "type": "pubkeyhash",
+              "addresses": [
+                "msqdGkBy9RG8W5dJrUCDfVTTT5crE2XkB2"
+              ]
+            }
+          },
+          {
+            "value": 0,
+            "n": 1,
+            "scriptPubKey": {
+              "asm": "OP_RETURN aa21a9ed5d92de4b1b4491178146d4b4b65d88b1d697495392e2c98f194f495a98a08be2",
+              "hex": "6a24aa21a9ed5d92de4b1b4491178146d4b4b65d88b1d697495392e2c98f194f495a98a08be2",
+              "type": "nulldata"
+            }
+          }
+        ]
+      }
+    },
+    "error": null,
+    "id": 51073
+  },
+  {
+    "result": {
+      "amount": 0,
+      "fee": -0.000074,
+      "confirmations": 1,
+      "blockhash": "73a82a234cdf97bb5ecdf300ccf670701307ddea47d6fb42a0a703526ef5bea4",
+      "blockindex": 1,
+      "blocktime": 1585992989,
+      "txid": "98ad8c7b921b1b3cb67d84c22da551a0ccb2d6398d6de541b8d66559eadcb2d9",
+      "walletconflicts": [],
+      "time": 1585992976,
+      "timereceived": 1585992976,
+      "bip125-replaceable": "no",
+      "details": [
+        {
+          "address": "mjHZttBpMfmeWzBQNM1gsYZz1Xp5K9wwB1",
+          "category": "send",
+          "amount": -6.6,
+          "label": "address_2",
+          "vout": 0,
+          "fee": -0.000074,
+          "abandoned": false
+        },
+        {
+          "address": "mjHZttBpMfmeWzBQNM1gsYZz1Xp5K9wwB1",
+          "category": "receive",
+          "amount": 6.6,
+          "label": "address_2",
+          "vout": 0
+        }
+      ],
+      "hex": "02000000028696391352b8adba02000cec71e7c8dab6d8d2444239e1812c7d494b6e0fbb4a010000006a47304402200e3b63297c62f9fd739a568f6ede2baefd6d7514a107cfea328eabc3164a3ffc02201e5fab9301bbbf9c19f873dcd1e53094fbc88dc05adf763bb3a6f9765da7977a012103526e2d56acdfd0fe00598a7ebf7e81738a30d09948375ac202531c25d9e873c9feffffff81b4b600aae4baca01d67db6286ee6818f316f665fc751d5b472df82ef153a4b0100000069463043021f7328da2fe695cbd5d284fda751d9c93d698385b834c9696694e806d1e81b51022061205e5b627ab4b07d6e127c2ebe75e5725b84f687879de3aa9cecbcd9e05ef4012103526e2d56acdfd0fe00598a7ebf7e81738a30d09948375ac202531c25d9e873c9feffffff0200cd5627000000001976a914295865c0f472347d313e828d87c1a7408df6b91688ac985a8e060000000017a9145e6e733dc5cde9e2ea0bc0d891814537b8de884287b7000000",
+      "decoded": {
+        "txid": "98ad8c7b921b1b3cb67d84c22da551a0ccb2d6398d6de541b8d66559eadcb2d9",
+        "hash": "98ad8c7b921b1b3cb67d84c22da551a0ccb2d6398d6de541b8d66559eadcb2d9",
+        "version": 2,
+        "size": 369,
+        "vsize": 369,
+        "weight": 1476,
+        "locktime": 183,
+        "vin": [
+          {
+            "txid": "4abb0f6e4b497d2c81e1394244d2d8b6dac8e771ec0c0002baadb85213399686",
+            "vout": 1,
+            "scriptSig": {
+              "asm": "304402200e3b63297c62f9fd739a568f6ede2baefd6d7514a107cfea328eabc3164a3ffc02201e5fab9301bbbf9c19f873dcd1e53094fbc88dc05adf763bb3a6f9765da7977a[ALL] 03526e2d56acdfd0fe00598a7ebf7e81738a30d09948375ac202531c25d9e873c9",
+              "hex": "47304402200e3b63297c62f9fd739a568f6ede2baefd6d7514a107cfea328eabc3164a3ffc02201e5fab9301bbbf9c19f873dcd1e53094fbc88dc05adf763bb3a6f9765da7977a012103526e2d56acdfd0fe00598a7ebf7e81738a30d09948375ac202531c25d9e873c9"
+            },
+            "sequence": 4294967294
+          },
+          {
+            "txid": "4b3a15ef82df72b4d551c75f666f318f81e66e28b67dd601cabae4aa00b6b481",
+            "vout": 1,
+            "scriptSig": {
+              "asm": "3043021f7328da2fe695cbd5d284fda751d9c93d698385b834c9696694e806d1e81b51022061205e5b627ab4b07d6e127c2ebe75e5725b84f687879de3aa9cecbcd9e05ef4[ALL] 03526e2d56acdfd0fe00598a7ebf7e81738a30d09948375ac202531c25d9e873c9",
+              "hex": "463043021f7328da2fe695cbd5d284fda751d9c93d698385b834c9696694e806d1e81b51022061205e5b627ab4b07d6e127c2ebe75e5725b84f687879de3aa9cecbcd9e05ef4012103526e2d56acdfd0fe00598a7ebf7e81738a30d09948375ac202531c25d9e873c9"
+            },
+            "sequence": 4294967294
+          }
+        ],
+        "vout": [
+          {
+            "value": 6.6,
+            "n": 0,
+            "scriptPubKey": {
+              "asm": "OP_DUP OP_HASH160 295865c0f472347d313e828d87c1a7408df6b916 OP_EQUALVERIFY OP_CHECKSIG",
+              "hex": "76a914295865c0f472347d313e828d87c1a7408df6b91688ac",
+              "reqSigs": 1,
+              "type": "pubkeyhash",
+              "addresses": [
+                "mjHZttBpMfmeWzBQNM1gsYZz1Xp5K9wwB1"
+              ]
+            }
+          },
+          {
+            "value": 1.099926,
+            "n": 1,
+            "scriptPubKey": {
+              "asm": "OP_HASH160 5e6e733dc5cde9e2ea0bc0d891814537b8de8842 OP_EQUAL",
+              "hex": "a9145e6e733dc5cde9e2ea0bc0d891814537b8de884287",
+              "reqSigs": 1,
+              "type": "scripthash",
+              "addresses": [
+                "2N1rXpXZdi3YBCkZXFvRHFE1Kyh8xWNizu3"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "error": null,
+    "id": 6605
+  },
+  {
+    "result": {
+      "amount": 0,
+      "fee": -0.0000336,
+      "confirmations": 1,
+      "blockhash": "73a82a234cdf97bb5ecdf300ccf670701307ddea47d6fb42a0a703526ef5bea4",
+      "blockindex": 2,
+      "blocktime": 1585992989,
+      "txid": "e5ec087885c409b736fdf91ee5fb67c595e61df173e3f425a33115f9a11a076a",
+      "walletconflicts": [],
+      "time": 1585992980,
+      "timereceived": 1585992980,
+      "bip125-replaceable": "no",
+      "details": [
+        {
+          "address": "mjHZttBpMfmeWzBQNM1gsYZz1Xp5K9wwB1",
+          "category": "send",
+          "amount": -7.7,
+          "label": "address_2",
+          "vout": 1,
+          "fee": -0.0000336,
+          "abandoned": false
+        },
+        {
+          "address": "mjHZttBpMfmeWzBQNM1gsYZz1Xp5K9wwB1",
+          "category": "receive",
+          "amount": 7.7,
+          "label": "address_2",
+          "vout": 1
+        }
+      ],
+      "hex": "02000000000101528dfdc61630fb739827c18199bcd93f3e8978901b63d76b5759e34819bf1c220000000017160014b5e0211c557a5048a9e710e8d96da0b40b72dfc6feffffff02148e80c30000000017a9144710fd41d15358525155ebce4413121314d0113f878044e52d000000001976a914295865c0f472347d313e828d87c1a7408df6b91688ac0247304402205290f67c02446879a6f955c7434cbc6d36187d5319af41c3fd452261dab0a18c0220459fb2bc76cdfebf28f4022feb130ea98e3d72e3c04e5f0a9522cd043c329160012102bfebd7703a732f077af6de8190639f8003568b4b4105ff9aed0b97ae0c657f79b7000000",
+      "decoded": {
+        "txid": "e5ec087885c409b736fdf91ee5fb67c595e61df173e3f425a33115f9a11a076a",
+        "hash": "ccef52fa13cf26140477102421a7f17be446152a0d98797273ad3da35bfb7506",
+        "version": 2,
+        "size": 249,
+        "vsize": 168,
+        "weight": 669,
+        "locktime": 183,
+        "vin": [
+          {
+            "txid": "221cbf1948e359576bd7631b9078893e3fd9bc9981c1279873fb3016c6fd8d52",
+            "vout": 0,
+            "scriptSig": {
+              "asm": "0014b5e0211c557a5048a9e710e8d96da0b40b72dfc6",
+              "hex": "160014b5e0211c557a5048a9e710e8d96da0b40b72dfc6"
+            },
+            "txinwitness": [
+              "304402205290f67c02446879a6f955c7434cbc6d36187d5319af41c3fd452261dab0a18c0220459fb2bc76cdfebf28f4022feb130ea98e3d72e3c04e5f0a9522cd043c32916001",
+              "02bfebd7703a732f077af6de8190639f8003568b4b4105ff9aed0b97ae0c657f79"
+            ],
+            "sequence": 4294967294
+          }
+        ],
+        "vout": [
+          {
+            "value": 32.799821,
+            "n": 0,
+            "scriptPubKey": {
+              "asm": "OP_HASH160 4710fd41d15358525155ebce4413121314d0113f OP_EQUAL",
+              "hex": "a9144710fd41d15358525155ebce4413121314d0113f87",
+              "reqSigs": 1,
+              "type": "scripthash",
+              "addresses": [
+                "2MyizKLgaD8GoJiPAi4ZvMYPoQCCWUBrYL6"
+              ]
+            }
+          },
+          {
+            "value": 7.7,
+            "n": 1,
+            "scriptPubKey": {
+              "asm": "OP_DUP OP_HASH160 295865c0f472347d313e828d87c1a7408df6b916 OP_EQUALVERIFY OP_CHECKSIG",
+              "hex": "76a914295865c0f472347d313e828d87c1a7408df6b91688ac",
+              "reqSigs": 1,
+              "type": "pubkeyhash",
+              "addresses": [
+                "mjHZttBpMfmeWzBQNM1gsYZz1Xp5K9wwB1"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "error": null,
+    "id": 36829
+  },
+  {
+    "result": null,
+    "error": {
+      "code": -5,
+      "message": "Invalid or non-wallet transaction id"
+    },
+    "id": 17890
+  }
+]
